@@ -94,7 +94,7 @@ countBudgetBtn.addEventListener('click', function() {
           } else if (appData.moneyPerDay > 100 && appData.moneyPerDay < 2000) {
                levelValue.textContent = 'средний уровень достатка';
           } else if (appData.moneyPerDay > 2000) {
-               console.log('max');
+               levelValue.textContent = 'высокий уровень достатка';
           } else {
                levelValue.textContent = 'произошла ошибка';
           };
